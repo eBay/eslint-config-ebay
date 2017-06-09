@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-ebay",
+  "version": "0.0.8",
+  "description": "ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && node test/rules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebay/eslint-config-ebay"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "ebay",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "senthilp <senthil.padmanabhan@yahoo.com> | Michael Woo <mikewoo@yahoo.com>",
+  "contributors": [],
+  "homepage": "https://github.com/ebay/eslint-config-ebay",
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
