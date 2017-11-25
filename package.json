@@ -23,10 +23,12 @@
   "contributors": [],
   "homepage": "https://github.com/ebay/eslint-config-ebay",
   "devDependencies": {
-    "eslint": "^2.4.0"
+    "eslint": "^2.4.0",
+    "eslint-config-ebay": "^0.1.5"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }

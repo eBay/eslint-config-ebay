@@ -9,7 +9,7 @@ function isES6Rule(rule) {
 }
 
 const rulesAvailable = fs.readdirSync(path.join(__dirname, '../rules'))
-                        .map(name => path.join(process.cwd(), 'rules', name)),
+                        .map(name => path.join(process.cwd(), 'node_modules/eslint-config-ebay/rules', name)),
     legacyRulesAvailable = rulesAvailable.filter(rule => !isES6Rule(rule)),
     legacyRulesIncluded = require('../legacy').extends,
     legacyRulesFinalSet = new Set(legacyRulesIncluded.concat(legacyRulesAvailable)),

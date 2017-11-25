@@ -7,6 +7,6 @@ module.exports = {
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 2017
-    },    
+    },
     "rules": {}
 };
