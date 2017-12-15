@@ -91,7 +91,7 @@ module.exports = {
         // http://eslint.org/docs/rules/quote-props.html
         "quote-props": [2, "as-needed", { "keywords": false, "unnecessary": false, "numbers": false }],
         // specify whether double or single quotes should be used
-        "quotes": [0, "single", "avoid-escape"],
+        "quotes": [2, "single", "avoid-escape"],
         // require identifiers to match the provided regular expression
         "id-match": 0,
         // enforce spacing before and after semicolons
