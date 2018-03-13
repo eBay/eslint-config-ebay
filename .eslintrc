@@ -1,13 +1,6 @@
 {
     "extends": "ebay",
     "rules": {
-         "import/order": [2, {"groups": ["builtin", "external", "internal", "parent", "sibling", "index"]}],
-        "no-param-reassign": 0
-    },
-    "parserOptions": {
-        "ecmaVersion": 2017,
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true
-        }
+         "import/order": [2, {"groups": ["builtin", "external", "internal", "parent", "sibling", "index"]}]
     }
 }
