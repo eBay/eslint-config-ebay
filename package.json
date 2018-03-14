@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ebay",
-  "version": "0.1.10",
+  "version": "1.0.0",
   "description": "ESLint config",
   "main": "index.js",
   "scripts": {
