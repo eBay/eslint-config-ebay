@@ -9,7 +9,7 @@ function isES6Rule(rule) {
 }
 
 const rulesAvailable = fs.readdirSync(path.join(__dirname, '../rules'))
-                        .map(name => path.join(process.cwd(), 'node_modules/eslint-config-ebay/rules', name)),
+        .map(name => path.join(process.cwd(), 'node_modules/eslint-config-ebay/rules', name)),
     legacyRulesAvailable = rulesAvailable.filter(rule => !isES6Rule(rule)),
     legacyRulesIncluded = require('../legacy').extends,
     legacyRulesFinalSet = new Set(legacyRulesIncluded.concat(legacyRulesAvailable)),
@@ -18,7 +18,7 @@ const rulesAvailable = fs.readdirSync(path.join(__dirname, '../rules'))
 // Testing legacy rules
 assert(legacyRulesFinalSet.size === legacyRulesIncluded.length &&
         legacyRulesFinalSet.size === legacyRulesAvailable.length,
-        `
+`
         The available legacy rules
         ${legacyRulesAvailable.join('\n\t')}
 
@@ -28,5 +28,5 @@ assert(legacyRulesFinalSet.size === legacyRulesIncluded.length &&
 
 // Testing ES6 rules
 assert(es6RulesIncluded.findIndex(isES6Rule) !== -1,
-        `The ES6 rule "${rulesAvailable.filter(isES6Rule)}" should be inlcuded`);
+    `The ES6 rule "${rulesAvailable.filter(isES6Rule)}" should be inlcuded`);
 
