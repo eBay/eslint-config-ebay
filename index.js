@@ -6,7 +6,7 @@ module.exports = {
         'eslint-config-ebay/rules/es6'
     ].map(require.resolve),
     parserOptions: {
-        ecmaVersion: 2017
+        ecmaVersion: 2020
     },
     'rules': {}
 };
