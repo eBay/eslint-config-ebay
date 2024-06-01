@@ -1,3 +1,7 @@
+> [!WARNING]  
+> This eslint-config is no longer recommended.
+> The repo is left open for reference.
+
 # eslint-config-ebay
 
 This package provides eBay's [.eslintrc](./.eslintrc) as a shared npm module. This is similar to that of airbnb's extensible [shared config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb). 
